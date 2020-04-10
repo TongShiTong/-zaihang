@@ -1,0 +1,12 @@
+
+.form {
+	padding: 40rpx;
+	padding-top: 0;
+	width: 100%;
+}
+.uni-input {
+	border-bottom:1px solid #999;
+	padding-top: 30rpx;
+	padding-bottom:30rpx;
+}
+

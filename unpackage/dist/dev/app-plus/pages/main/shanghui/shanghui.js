@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"name { font-size: ",[0,46],"; color: #333; margin-bottom: ",[0,40],"; font-weight: 700; }\n.",[1],"code { font-size: ",[0,34],"; color: #333; text-align: justify; letter-spacing: 0.1em; }\n",],undefined,{path:"./pages/main/shanghui/shanghui.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/main/shanghui/shanghui.wxml') } }));

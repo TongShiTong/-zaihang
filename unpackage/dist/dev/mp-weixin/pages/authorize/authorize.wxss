@@ -1,0 +1,38 @@
+
+.shouquan {
+	margin: 0 auto;
+}
+.hua {
+	width: 162rpx;
+	height: 162rpx;
+	/* font-size: 44upx;
+	color: #000; */
+	margin: 0 auto;
+	margin-top: 120rpx;
+	margin-bottom: 54rpx;
+	text-align: center;
+}
+.shouquan .p1 {
+	font-size: 30rpx;
+	color: #333;
+	text-align: center;
+	line-height: 1.4em;
+}
+.shouquan .p2 {
+	font-size: 24rpx;
+	color: #333;
+	text-align: center;
+	line-height: 1.4em;
+}
+.btn {
+	width: 520rpx;
+	height: 88rpx;
+	font-size: 38rpx;
+	color: #fff;
+	background: #DB2311;
+	line-height: 88rpx;
+	border-radius: 44rpx;
+	text-align: center;
+	margin-top: 80rpx;
+}
+

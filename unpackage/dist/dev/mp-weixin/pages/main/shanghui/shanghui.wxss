@@ -1,0 +1,14 @@
+
+.name {
+	font-size: 46rpx;
+	color: #333;
+	margin-bottom: 40rpx;
+	font-weight: 700;
+}
+.code {
+	font-size: 34rpx;
+	color: #333;
+	text-align: justify;
+	letter-spacing: 0.1em;
+}
+

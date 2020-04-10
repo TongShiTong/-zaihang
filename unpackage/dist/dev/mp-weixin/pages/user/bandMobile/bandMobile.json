@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "手机号授权",
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag"
+  }
+}

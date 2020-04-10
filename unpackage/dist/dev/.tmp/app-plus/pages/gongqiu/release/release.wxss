@@ -1,0 +1,70 @@
+
+.input-search {
+	min-height: 140vh;
+}
+.input-box {
+	padding-top: 30rpx;
+	padding-left: 20rpx;
+	padding-right: 20rpx;
+}
+.input-box .biaoti {
+	font-size: 32rpx;
+	color: #333;
+	border-bottom: 1rpx solid #ccc;
+	/* padding-bottom: 40upx; */
+}
+.uni-list-cell {
+	font-size: 30rpx;
+/* 	display: flex;
+	justify-content: space-between; */
+	/* padding-bottom: 86upx; */
+}
+.uni-list-cell-left {
+	font-size: 30rpx;
+	color: #999;
+	margin-top: 68rpx;
+	margin-bottom: 30rpx;
+}
+.textarea {
+	width: 660rpx;
+	height: 366rpx;
+	font-size: 32rpx;
+	color: #333;
+	border: 1rpx solid #ccc;
+	text-align: justify;
+	line-height: 1.5em;
+	margin-top: 40rpx;
+}
+.btn {
+	/* margin: 0 auto; */
+	position: fixed;
+	bottom: 68rpx;
+	left: 196rpx;
+	width: 360rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	text-align: center;
+	color: #fff;
+	font-size: 38rpx;
+	background: #DB2311 !important;
+	border-radius: 44rpx;
+	/* margin-top: 260upx; */
+}
+.uni-list-cell-pd {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.radio {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 40rpx;
+}
+

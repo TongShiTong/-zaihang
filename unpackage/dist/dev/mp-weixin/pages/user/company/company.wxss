@@ -1,0 +1,132 @@
+
+.pd {
+	font-size: 32rpx;
+	color: #333;
+	height: 122rpx;
+	border-bottom: 1rpx solid #e6e6e6;
+	text-align: center;
+	font-weight: bold;
+}
+.photoUpload {
+	width: 17rpx;
+	height: 31rpx;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAABACAYAAAByZdXUAAABX0lEQVRoQ83ayw3CMAwG4EbdggFYICMhGIEdmAGYhXMPmSkoBar0QfPyb9unOJd8cnJxZNNF4b03ITXG+Hifcz0CQgSMc+4eltbaixRqBEWY09f3kEKNIOfczXt/XVyNCGoEDcNw7Pv+1XXdQRo1vSEtqAmkpVIzkAbUCiSN2gRJov6CpFC7IAlUEsSNygJxorJBXKgiEAeqGIRGVYGQqGoQCtUEQqCaQdQoEhAligxEhSIFUaDIQa0oCKgFBQPVoqCgGhQclEA9rbXnuG1nAZWg2EC5KFZQFmrRy8PTZMsOF0QHJDHGfH7MOCIHExwsoFwMC6gEAweVYqCgGgwMVIuBgFow5KBWDCmIAkMGosKQgCgxzSBqTBMIgakGoTBVICSmGITGFIE4MNkgLkwWiBOTBHFjdkESmL8gKcwmSBKzAkljZiANmAmkBTOB1A0SqBu1CKVSNYzy+2zQMK7zBujPjEw7KFhlAAAAAElFTkSuQmCC) no-repeat;
+	background-size: 100% 100%;
+}
+.form {
+	margin: 0 auto;
+	padding-top: 0;
+	width: 690rpx;
+	min-height: 150vh;
+}
+.uni-input {
+	width: 690rpx;
+	border-bottom: 1px solid #E6E6E6;
+	/* padding-top: 30upx;
+	padding-bottom: 30upx; */
+	font-size: 32rpx;
+	color: #333;
+}
+.uni-list-cell {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 20rpx 0;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.uni-form-item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	/* padding: 20upx 0; */
+}
+.uni-media-list {
+	width: 88rpx;
+	height: 88rpx;
+	margin-left: 130px;
+}
+label {
+	width: 690rpx;
+}
+label view {
+	font-size: 28rpx;
+	color: #999;
+	margin-top: 44rpx;
+	margin-bottom: 30rpx;
+}
+.uni-media-list .uni-media-list-logo {
+	width: 100%;
+	height: 100%;
+}
+/* .placeholder {
+	font-size: 32upx;
+	color: #333;
+} */
+#aboutEditor {
+	/* height: 40upx; */
+	border: 1px solid #e6e6e6;
+	font-size: 32rpx;
+	color: #333;
+}
+.btn {
+	position: fixed;
+	bottom: 68rpx;
+	left: 196rpx;
+	width: 360rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	text-align: center;
+	color: #fff;
+	font-size: 38rpx;
+	background: #DB2311 !important;
+	border-radius: 44rpx;
+	/* margin-top: 260upx; */
+}
+.shipin {
+	height: 122rpx;
+	line-height: 122rpx;
+	border-bottom: 1rpx solid #e5e5e5;
+}
+.shipin .uni-input {
+	border-bottom: none;
+	font-size: 32rpx;
+	color: #333;
+}
+.videoUpload {
+	font-size: 24rpx;
+	color: #999;
+	width: 116rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	/* margin-right: 47upx; */
+	/* background: url(../../../static/img/xiangyou.png) no-repeat;
+	background-size: 100% 100%; */
+}
+

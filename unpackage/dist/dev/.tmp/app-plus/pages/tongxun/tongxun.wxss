@@ -1,0 +1,125 @@
+
+.content {
+	padding-top: 0 !important;
+}
+.uni-media-list-body .name {
+	font-size: 34rpx;
+	color: #333;
+}
+.uni-media-list-body .company {
+	font-size: 24rpx;
+	color: #333;
+	padding-right: 10rpx;
+	max-width: 520rpx;
+}
+.uni-media-list-body .position,.mobile {
+	position: absolute;
+	top: 40rpx;
+	right: 20rpx;
+	font-size: 24rpx;
+	color: #DB2311;
+}
+.uni-media-list-text-top {
+	line-height: 1.6em;
+	word-wrap:break-word;
+	/* display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden; */
+}
+.uni-list {
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	/* justify-content: space-around; */
+}
+.uni-list-cell {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	-webkit-box-shadow: 4px 4px 8px #f0f0f0;
+	        box-shadow: 4px 4px 8px #f0f0f0;
+	margin-bottom: 20rpx;
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	margin-right: 20rpx;
+}
+/* .uni-list-cell:nth-child(2n){
+	margin-right: 0px;
+} */
+.uni-media-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.uni-media-list .img{
+	width: 120rpx;
+	height: 120rpx;
+	border-radius: 50%;
+	margin-right: 20rpx;
+	/* background: #ffcccc; */
+}
+.input-search {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-bottom: 40rpx;
+	/* padding-left: 10upx; */
+	width: 720rpx;
+	position: fixed;
+	background: #fff;
+	z-index: 999;
+}
+.input-box {
+	position: relative;
+	background: #ddd;
+	border-radius: 34rpx;
+	height: 68rpx;
+	width: 520rpx;
+	line-height: 68rpx;
+}
+.input-box input {
+	padding-left: 95rpx;
+	line-height: 68rpx;
+	height: 68rpx; 
+	-webkit-box-sizing: border-box; 
+	        box-sizing: border-box;
+	/* margin-right: 20upx; */
+}
+.btn {
+	background: #4F3B3B !important;
+	height: 68rpx;
+	width: 130rpx;
+	font-size: 32rpx;
+	border-radius: 34rpx;
+	line-height: 68rpx;
+	color: #ffffff;
+	margin-right: 30rpx;
+	/* padding-right: 20upx; */
+}
+.callPhone {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+

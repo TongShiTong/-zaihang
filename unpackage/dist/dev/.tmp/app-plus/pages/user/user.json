@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人信息",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#FF9999",
+  "navigationBarBackgroundColor": "#FF9999",
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag"
+  }
+}

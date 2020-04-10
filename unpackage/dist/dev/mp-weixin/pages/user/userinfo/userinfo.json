@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "基本资料",
+  "usingComponents": {
+    "uni-tag": "/components/uni-tag/uni-tag"
+  }
+}

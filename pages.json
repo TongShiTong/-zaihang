@@ -1,0 +1,141 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+        {
+            "path": "pages/main/main",
+            "style": {
+                "navigationBarTitleText": "安庆商会信息共享平台",
+				"enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/tongxun/tongxun",
+            "style": {
+                "navigationBarTitleText": "通讯录",
+				"enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/gongqiu/gongqiu",
+            "style": {
+                "navigationBarTitleText": "供求信息",
+				"enablePullDownRefresh": true
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "个人信息",
+				"navigationBarTextStyle": "white",
+				"backgroundColor": "#FF9999",
+				"navigationBarBackgroundColor": "#FF9999"
+            }
+        },{
+            "path" : "pages/main/newsDetail/newsDetail",
+            "style" : {"navigationBarTitleText": "新闻详情"}
+        }
+        ,{
+            "path" : "pages/tongxun/userDetail/userDetail",
+            "style" : {"navigationBarTitleText": "名片详情"}
+        }
+        ,{
+            "path" : "pages/gongqiu/gongqiuDetail/gongqiuDetail",
+            "style" : {"navigationBarTitleText": "供求详情"}
+        }
+        ,{
+            "path" : "pages/gongqiu/release/release",
+            "style" : {"navigationBarTitleText": "发布供求"}
+        }
+        ,{
+            "path" : "pages/gongqiu/revise/revise",
+            "style" : {"navigationBarTitleText": "修改供求"}
+        }
+        ,{
+            "path" : "pages/user/userCard/userCard",
+            "style" : {"navigationBarTitleText": "我的名片"}
+        }
+ ,{
+            "path" : "pages/photo/upload/upload",
+            "style" : {"navigationBarTitleText": "上传图片"}
+        }
+        ,{
+            "path" : "pages/authorize/authorize",
+            "style" : {"navigationBarTitleText": "登录安庆商会"}
+        }
+        ,{
+            "path" : "pages/user/bandMobile/bandMobile",
+            "style" : {"navigationBarTitleText": "手机号授权"}
+        }
+        ,{
+            "path" : "pages/user/userinfo/userinfo",
+            "style" : {"navigationBarTitleText": "基本资料"}
+        }
+        ,{
+            "path" : "pages/user/company/company",
+            "style" : {"navigationBarTitleText": "公司详情"}
+        }
+        ,{
+            "path" : "pages/user/photo/photo",
+            "style" : {"navigationBarTitleText": "公司相册"}
+        }
+        ,{
+            "path" : "pages/user/myinfo/myinfo",
+            "style" : {"navigationBarTitleText": "我的供求"}
+        }
+        ,{
+            "path" : "pages/main/shanghui/shanghui",
+            "style" : {"navigationBarTitleText": "商会详情"}
+        }
+        ,{
+            "path" : "pages/main/newsList/newsList",
+            "style" : {"navigationBarTitleText": "新闻列表"}
+        }
+        ,{
+            "path" : "pages/user/reviewMobile/reviewMobile",
+            "style" : {}
+        }
+    ],
+    "tabBar": {
+        "color": "#999",
+        "selectedColor": "#333",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/main/main",
+            "text": "首页",
+            "iconPath": "static/footer_icon/shouye1.png",
+            "selectedIconPath": "static/footer_icon/shouye.png"
+        }, {
+		    "pagePath": "pages/tongxun/tongxun",
+		    "text": "通讯录",
+		    "iconPath": "static/footer_icon/mingpian1.png",
+		    "selectedIconPath": "static/footer_icon/mingpian.png"
+		},{
+		    "pagePath": "pages/gongqiu/gongqiu",
+		    "text": "供求",
+		    "iconPath": "static/footer_icon/gongqiu1.png",
+		    "selectedIconPath": "static/footer_icon/gongqiu.png"
+		},{
+            "pagePath": "pages/user/user",
+            "text": "我的",
+            "iconPath": "static/footer_icon/wode1.png",
+            "selectedIconPath": "static/footer_icon/wode.png"
+        }]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#ffffff",
+        "backgroundColor": "#fff",
+		"onReachBottomDistance": 50
+    }
+}

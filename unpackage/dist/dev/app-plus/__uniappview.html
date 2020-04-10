@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"hunter-pin","entryPagePath":"pages/main/main.html","page":{"pages/main/main.html":{"window":{"navigationBarTitleText":"安庆商会信息共享平台","enablePullDownRefresh":true,"usingComponents":{}}},"pages/login/login.html":{"window":{"navigationBarTitleText":"登录","usingComponents":{"m-input":"/components/m-input"}}},"pages/reg/reg.html":{"window":{"navigationBarTitleText":"注册","usingComponents":{"m-input":"/components/m-input"}}},"pages/pwd/pwd.html":{"window":{"navigationBarTitleText":"找回密码","usingComponents":{"m-input":"/components/m-input"}}},"pages/tongxun/tongxun.html":{"window":{"navigationBarTitleText":"通讯录","enablePullDownRefresh":true,"usingComponents":{"uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/gongqiu/gongqiu.html":{"window":{"navigationBarTitleText":"供求信息","enablePullDownRefresh":true,"usingComponents":{"uni-tag":"/components/uni-tag/uni-tag","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/user/user.html":{"window":{"navigationBarTitleText":"个人信息","navigationBarTextStyle":"white","backgroundColor":"#FF9999","navigationBarBackgroundColor":"#FF9999","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag"}}},"pages/main/newsDetail/newsDetail.html":{"window":{"navigationBarTitleText":"新闻详情","usingComponents":{}}},"pages/tongxun/userDetail/userDetail.html":{"window":{"navigationBarTitleText":"名片详情","usingComponents":{}}},"pages/gongqiu/gongqiuDetail/gongqiuDetail.html":{"window":{"navigationBarTitleText":"供求详情","usingComponents":{}}},"pages/gongqiu/release/release.html":{"window":{"navigationBarTitleText":"发布供求","usingComponents":{}}},"pages/gongqiu/revise/revise.html":{"window":{"navigationBarTitleText":"修改供求","usingComponents":{}}},"pages/user/userCard/userCard.html":{"window":{"navigationBarTitleText":"我的名片","usingComponents":{}}},"pages/photo/upload/upload.html":{"window":{"navigationBarTitleText":"上传图片","usingComponents":{}}},"pages/authorize/authorize.html":{"window":{"navigationBarTitleText":"登录安庆商会","usingComponents":{}}},"pages/user/bandMobile/bandMobile.html":{"window":{"navigationBarTitleText":"手机号授权","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag"}}},"pages/user/userinfo/userinfo.html":{"window":{"navigationBarTitleText":"基本资料","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag"}}},"pages/user/company/company.html":{"window":{"navigationBarTitleText":"公司详情","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag"}}},"pages/user/photo/photo.html":{"window":{"navigationBarTitleText":"公司相册","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/user/myinfo/myinfo.html":{"window":{"navigationBarTitleText":"我的供求","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/main/shanghui/shanghui.html":{"window":{"navigationBarTitleText":"商会详情","usingComponents":{}}},"pages/main/newsList/newsList.html":{"window":{"navigationBarTitleText":"新闻列表","usingComponents":{"uni-tag":"/components/uni-tag/uni-tag","uni-load-more":"/components/uni-load-more/uni-load-more"}}},"pages/user/reviewMobile/reviewMobile.html":{"window":{"usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarBackgroundColor":"#ffffff","backgroundColor":"#fff","onReachBottomDistance":50}},"tabBar":{"color":"#999","selectedColor":"#333","backgroundColor":"#ffffff","borderStyle":"black","list":[{"pagePath":"pages/main/main.html","text":"首页","iconPath":"static/footer_icon/shouye1.png","selectedIconPath":"static/footer_icon/shouye.png"},{"pagePath":"pages/tongxun/tongxun.html","text":"通讯录","iconPath":"static/footer_icon/mingpian1.png","selectedIconPath":"static/footer_icon/mingpian.png"},{"pagePath":"pages/gongqiu/gongqiu.html","text":"供求","iconPath":"static/footer_icon/gongqiu1.png","selectedIconPath":"static/footer_icon/gongqiu.png"},{"pagePath":"pages/user/user.html","text":"我的","iconPath":"static/footer_icon/wode1.png","selectedIconPath":"static/footer_icon/wode.png"}],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/main/main","pages/login/login","pages/reg/reg","pages/pwd/pwd","pages/tongxun/tongxun","pages/gongqiu/gongqiu","pages/user/user","pages/main/newsDetail/newsDetail","pages/tongxun/userDetail/userDetail","pages/gongqiu/gongqiuDetail/gongqiuDetail","pages/gongqiu/release/release","pages/gongqiu/revise/revise","pages/user/userCard/userCard","pages/photo/upload/upload","pages/authorize/authorize","pages/user/bandMobile/bandMobile","pages/user/userinfo/userinfo","pages/user/company/company","pages/user/photo/photo","pages/user/myinfo/myinfo","pages/main/shanghui/shanghui","pages/main/newsList/newsList","pages/user/reviewMobile/reviewMobile"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.3.1","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

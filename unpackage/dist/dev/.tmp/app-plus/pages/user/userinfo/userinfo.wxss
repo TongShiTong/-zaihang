@@ -1,0 +1,64 @@
+
+.content-box {
+	width: 750rpx;
+	background: #f0f0f0;
+	/* margin: 0 auto; */
+}
+.personal {
+	width: 750rpx;
+	margin: 0 auto;
+	background: #fff;
+	margin-top: 20rpx;
+	padding: 0 60rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	/* padding: 0 30upx; */
+}
+.box {
+	/* width: 650upx; */
+	height: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;	
+	-webkit-box-align: center;	
+	-webkit-align-items: center;	
+	    -ms-flex-align: center;	
+	        align-items: center;
+	border-bottom: 1rpx solid #f0f0f0;
+}
+.box1 {
+	height: 120rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;	
+	-webkit-box-align: center;	
+	-webkit-align-items: center;	
+	    -ms-flex-align: center;	
+	        align-items: center;
+	border-bottom: none;
+}
+.box view {
+	font-size: 30rpx;
+	color: #999;
+}
+.box .avatar {
+	width: 68rpx;
+	height: 68rpx;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.box .denglu {
+	font-size: 30rpx;
+	color: #333;
+}
+

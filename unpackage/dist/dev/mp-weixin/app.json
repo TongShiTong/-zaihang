@@ -1,0 +1,67 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/tongxun/tongxun",
+    "pages/gongqiu/gongqiu",
+    "pages/user/user",
+    "pages/main/newsDetail/newsDetail",
+    "pages/tongxun/userDetail/userDetail",
+    "pages/gongqiu/gongqiuDetail/gongqiuDetail",
+    "pages/gongqiu/release/release",
+    "pages/gongqiu/revise/revise",
+    "pages/user/userCard/userCard",
+    "pages/photo/upload/upload",
+    "pages/authorize/authorize",
+    "pages/user/bandMobile/bandMobile",
+    "pages/user/userinfo/userinfo",
+    "pages/user/company/company",
+    "pages/user/photo/photo",
+    "pages/user/myinfo/myinfo",
+    "pages/main/shanghui/shanghui",
+    "pages/main/newsList/newsList",
+    "pages/user/reviewMobile/reviewMobile"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#fff",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#333",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/footer_icon/shouye1.png",
+        "selectedIconPath": "static/footer_icon/shouye.png"
+      },
+      {
+        "pagePath": "pages/tongxun/tongxun",
+        "text": "通讯录",
+        "iconPath": "static/footer_icon/mingpian1.png",
+        "selectedIconPath": "static/footer_icon/mingpian.png"
+      },
+      {
+        "pagePath": "pages/gongqiu/gongqiu",
+        "text": "供求",
+        "iconPath": "static/footer_icon/gongqiu1.png",
+        "selectedIconPath": "static/footer_icon/gongqiu.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/footer_icon/wode1.png",
+        "selectedIconPath": "static/footer_icon/wode.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap10.json"
+}

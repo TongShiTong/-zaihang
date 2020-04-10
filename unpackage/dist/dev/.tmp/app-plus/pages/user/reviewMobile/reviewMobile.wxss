@@ -1,0 +1,32 @@
+
+label {
+	width: 690rpx;
+}
+label view {
+	font-size: 28rpx;
+	color: #999;
+	margin-top: 44rpx;
+	margin-bottom: 20rpx;
+}
+.btn {
+	position: fixed;
+	bottom: 68rpx;
+	left: 196rpx;
+	width: 360rpx;
+	height: 88rpx;
+	line-height: 88rpx;
+	text-align: center;
+	color: #fff;
+	font-size: 38rpx;
+	background: #DB2311 !important;
+	border-radius: 44rpx;
+	/* margin-top: 260upx; */
+}
+input{
+	font-size: 32rpx;
+	color: #333;
+}
+.uni-form-item {
+	border-bottom: 1rpx solid #e6e6e6;
+}
+
